@@ -1,32 +1,41 @@
-# PRTest
+# 天津中德应用技术大学开源社团 最佳代码PR比赛
 
-#### 介绍
-给社团新成员做PR测试操作
+欢迎参加我们的开源社团最佳代码Pull Request比赛！此比赛旨在奖励贡献者的卓越工作，并提供定制礼品作为奖励。我们鼓励你为我们的开源项目提交出色的Pull Request，并有机会赢得以下奖项：
 
-#### 软件架构
-软件架构说明
+## 奖项
 
+- **最趣代码奖**：这个奖项将颁发给提交的Pull Request中包含最有趣、有创意的代码。我们鼓励你尝试新的想法和有趣的解决方案。
 
+- **最优代码奖**：这个奖项将颁发给提交的Pull Request中包含最高质量、高效性能的代码。我们重视代码的可维护性和可扩展性。
 
-#### 使用说明
+- **最美代码奖**：这个奖项将颁发给提交的Pull Request中包含最美观、清晰易懂的代码。我们鼓励你编写干净、规范的代码。
 
-1. 代码请提交到/code目录下
-2. 有问题可以提issue
+## 比赛规则
 
+- 你可以提交Pull Request到本仓库，只要它们符合项目的要求。
 
-#### 参与贡献
+- 提交格式详见 [code目录](/code/README.md)
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+- 每位参赛者可以提交多个Pull Request，但每个奖项将只颁发一次。
 
+- 评审委员会将评估提交的Pull Request，并选择获奖者。评审标准将根据每个奖项的特点进行评定。
 
-#### 特技
+- 截止日期：``2023.11.23 24:00``。请在截止日期前提交你的Pull Request。
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+- 获奖者将收到定制礼品。
+
+## 如何参与
+
+1. 首先，Fork 本项目到你自己的Gitee仓库。
+
+2. 提交你的Pull Request，确保包含详细的描述和解释。
+
+3. 根据评审委员会的评估，我们将选择获奖者。
+
+4. 我们将联系获奖者，并寄送定制礼品。
+
+## 联系我们
+
+如果你有任何疑问或需要帮助，欢迎联系我们。
+
+祝愿所有参与者好运，期待看到你们的出色工作！
