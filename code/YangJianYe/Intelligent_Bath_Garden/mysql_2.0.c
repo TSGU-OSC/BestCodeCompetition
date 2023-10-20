@@ -6,25 +6,25 @@ int main()
 {
     MYSQL* mysql;
     MYSQL_ROW row;
-    MYSQL* conn; // ´´½¨Ò»¸öÖ¸ÏòmysqlÊı¾İÀàĞÍµÄÖ¸Õë
-    conn = mysql_init(NULL); // mysqlµÄ³õÊ¼»¯
-    if (!conn) // ÅĞ¶ÏÊÇ·ñ³õÊ¼»¯³É¹¦
+    MYSQL* conn; // åˆ›å»ºä¸€ä¸ªæŒ‡å‘mysqlæ•°æ®ç±»å‹çš„æŒ‡é’ˆ
+    conn = mysql_init(NULL); // mysqlçš„åˆå§‹åŒ–
+    if (!conn) // åˆ¤æ–­æ˜¯å¦åˆå§‹åŒ–æˆåŠŸ
     {
-        printf("mysql³õÊ¼»¯Ê§°Ü!\n");
+        printf("mysqlåˆå§‹åŒ–å¤±è´¥!\n");
         return EXIT_FAILURE;
     }
     conn = mysql_real_connect(conn, "mysql.sqlpub.com", "bathroom", "1bb2c89136ccd159", "bath_data_base", 3306, NULL, 0);
-    // ÓÃ»§ÃûÎªlewis,ÃÜÂëÎª123,Á¬½ÓµÄÊı¾İ¿âÎªtest
+    // ç”¨æˆ·åä¸ºlewis,å¯†ç ä¸º123,è¿æ¥çš„æ•°æ®åº“ä¸ºtest
     if (conn) {
-        printf("Êı¾İ¿âÁ¬½Ó³É¹¦!\n");
-        /*mysql_query(mysql, "select Status from data where Positionx='1' AND Positiony='1';");
+        printf("æ•°æ®åº“è¿æ¥æˆåŠŸ!\n");
+        mysql_query(mysql, "select Status from data where Positionx='1' AND Positiony='1';");
         MYSQL_RES* res = mysql_store_result(mysql);
         while( (row = mysql_fetch_row(res)) != NULL ){
             printf("%s", row[0]);
-        }*/
+        }
     } else
-        printf("Êı¾İ¿âÁ¬½ÓÊ§°Ü!\n");
-    // mysql_close(conn); // ¹Ø±ÕmysqlÁ¬½Ó
+        printf("æ•°æ®åº“è¿æ¥å¤±è´¥!\n");
+    // mysql_close(conn); // å…³é—­mysqlè¿æ¥
     getchar();
     return 0;
 }
