@@ -25,7 +25,3 @@
 ```C
 gcc -Iinclude -Llib test.c -llibmysql
 ```
-
-
-
-![输入图片说明](readme/image.png)
