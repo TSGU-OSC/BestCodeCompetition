@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main(void)
+{
+	float w, h, BMI;
+	printf("请输入您的体重（公斤）和身高（米）：\n");
+	scanf("%f,%f ", &w, &h);
+	BMI = w/ (h*h);
+	printf("您的BMI值为：%f\n", BMI);
+	if (BMI < 18.5)
+		printf("您的身体状态为偏瘦\n");
+	else if (18.5 <= BMI&&BMI <= 24.9)
+		printf("您的身体状态为正常\n");
+	    else
+	        printf("您的身体状态为超重\n");
+	return 0;
+}
