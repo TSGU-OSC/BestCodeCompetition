@@ -6,8 +6,8 @@ long long int Calc(long long int* num);
 int main()
 {
     //变量区
-    long long int num = 0;
-    long long int ret = 0;
+    long long int num = 0;//存储用户输入的数字
+    long long int ret = 0;//存储使用步骤次数
 
     //执行区
     do
@@ -17,7 +17,7 @@ int main()
     } while (num <= 0);//防止非法输入
 
     ret = Calc(&num);
-    printf("经过了%lld次运算，结果为：%lld。", ret, num);
+    printf("经过了%lld次运算，结果为：%lld。\n", ret, num);
 
     // if (Calc(&num, &ret), ret == -1)//假如会形成死循环
     // {
