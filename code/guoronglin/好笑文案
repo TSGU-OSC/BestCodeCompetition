@@ -1,0 +1,26 @@
+#include <stdio.h>
+int main()
+{
+	int a;
+	printf("有病但是很好笑的句子\n");
+	scanf("%d",&a);
+	switch(a)
+	{
+		case 1:
+			printf("比宇宙更宽广的是什么？考生答；考试范围。\n");
+		case 2:
+			printf("双重否定什么时候不表示肯定？女朋友说我没有不高兴。\n");
+		case 3:
+			printf("请不要叫我穷人，那样太伤我自尊了，请叫我价格敏感型消费者。\n");
+		case 4:
+			printf("每天都要元气满满的接受新的打击。\n");
+		case 5:
+			printf("是谁发明的早上好啊，到底是谁在好。\n");
+		case 6:
+			printf("聪明的人太多了，我要为笨蛋争口气。\n");
+		case 7:
+		    printf("拒绝精神内耗，有事直接发疯，不要想着PUA我，以我的智商，根本听不懂你在说什么。\n") ;
+    }
+    printf("每天都要有病哦。\n");
+	return 0;
+}
